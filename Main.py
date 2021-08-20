@@ -13,7 +13,7 @@ api = tweepy.API(auth)
 Client = commands.Bot(command_prefix='/')
 
 tweets = []
-userID = 'thebigamil'
+userID = 'nasa'
 
 @Client.event
 async def on_ready():
