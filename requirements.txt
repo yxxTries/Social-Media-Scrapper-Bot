@@ -1,0 +1,4 @@
+git+https://github.com/Rapptz/discord-ext-menus
+tweepy
+discord.py==1.7.3
+discord==1.0.1
