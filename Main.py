@@ -42,7 +42,7 @@ def checkfortweet():
         print(newtweet)
         async def timer():
             await Client.wait_until_ready()
-            message_channel = Client.get_channel(840954658788343829)
+            message_channel = Client.get_channel(878548256538374204)
             await message_channel.send(newtweet)
         Client.loop.create_task(timer())  
     Timer(3, checkfortweet).start()
