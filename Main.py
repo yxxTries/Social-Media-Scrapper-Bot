@@ -2,10 +2,10 @@ import tweepy
 from threading import Timer
 from discord.ext import commands
 
-CONSUMER_KEY = 'wkyCWX6tbqoMzofxNxNvaj4uO'
-CONSUMER_SECRET = 'E5JLWc5J7XJh3BdiplqTcsHDA8xTcqywxU1IOz6tf93cP6y0mm'
-ACCESS_KEY = '1357426169210142720-DaManMmLL3dZG7euYb5hi7A2GjYuD6'
-ACCESS_SECRET = 'giV2No9db7htJAIt3X3VZ4RiUDTBF614YklzTRGQvPccS'
+CONSUMER_KEY = 'KEY'
+CONSUMER_SECRET = 'KEY'
+ACCESS_KEY = 'KEY'
+ACCESS_SECRET = 'KEY'
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
@@ -48,6 +48,6 @@ def checkfortweet():
     Timer(3, checkfortweet).start()
 
 checkfortweet()
-Client.run('ODc3OTE4NDAyMTI2MTcyMjAx.YR5nOg.si1SP7E36NOHcEOPFh5mtBYpdC0')
+Client.run('KEY')
 
          
